@@ -101,7 +101,7 @@ export const MovieDetail = () => {
               target="_blank"
               rel="noreferrer"
             >
-              {movie.imdb_id}
+              {movie.title}
             </a>
           </p>
         </div>
