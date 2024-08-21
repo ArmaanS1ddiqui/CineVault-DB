@@ -202,22 +202,22 @@ export const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="/movies/popular"
-                  className={({ isActive }) =>
-                    isActive ? activeClass : inActiveClass
-                  }
-                >
-                  Popular
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
                   to="/movies/top"
                   className={({ isActive }) =>
                     isActive ? activeClass : inActiveClass
                   }
                 >
                   Top Rated
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/movies/popular"
+                  className={({ isActive }) =>
+                    isActive ? activeClass : inActiveClass
+                  }
+                >
+                  Popular
                 </NavLink>
               </li>
               <li>

@@ -25,7 +25,7 @@ export const MovieDetail = () => {
   }, [params.id]);
 
   useEffect(() => {
-    document.title = `${movie.title}`;
+    document.title = `CineVault | ${movie.title}`;
   });
 
   return (

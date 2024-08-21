@@ -6,7 +6,7 @@ export const MovieList = ({ apiPath, title }) => {
   const { data: movies } = useFetch(apiPath);
 
   useEffect(() => {
-    document.title = `${title}`;
+    document.title = `CineVault | ${title}`;
   });
 
   return (

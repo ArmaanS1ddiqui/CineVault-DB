@@ -6,14 +6,13 @@ export const Footer = () => {
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
         © 2030{" "}
         <Link to="/" className="hover:underline">
-          CineVault DB
+          CineVault DB | By Armaan Aijaz Siddiqui
         </Link>
-        . All Rights Reserved.
       </span>
       <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
           <a
-            href="/"
+            href="https://www.instagram.com/armaan.04__/?next=%2F"
             target="_blank"
             rel="noreferrer"
             className="mr-4 hover:underline md:mr-6 "
@@ -23,7 +22,7 @@ export const Footer = () => {
         </li>
         <li>
           <a
-            href="/"
+            href="https://www.linkedin.com/in/armaan-aijaz-siddiqui-0b11751b9/"
             target="_blank"
             rel="noreferrer"
             className="mr-4 hover:underline md:mr-6"
@@ -31,29 +30,10 @@ export const Footer = () => {
             LinkedIn
           </a>
         </li>
+
         <li>
           <a
-            href="/"
-            target="_blank"
-            rel="noreferrer"
-            className="mr-4 hover:underline md:mr-6"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            href="/"
-            target="_blank"
-            rel="noreferrer"
-            className="mr-4 hover:underline md:mr-6"
-          >
-            Youtube
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/ShubhamSarda"
+            href="https://github.com/ArmaanS1ddiqui"
             target="_blank"
             rel="noreferrer"
             className="hover:underline"
