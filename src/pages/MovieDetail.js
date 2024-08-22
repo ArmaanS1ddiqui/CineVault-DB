@@ -95,7 +95,7 @@ export const MovieDetail = () => {
           </p>
 
           <p className="my-4">
-            <span className="mr-2 font-bold">IMDB Code:</span>
+            <span className="mr-2 font-bold">IMDB Link:</span>
             <a
               href={`https://www.imdb.com/title/${movie.imdb_id}`}
               target="_blank"
